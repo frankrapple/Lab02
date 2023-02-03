@@ -11,5 +11,5 @@ def evens(n):
 
     new_function = is_even
 
-    evens2 = list(filter(new_function, range(0, n+1)))
+    evens2 = list(filter(new_function, range(0, n + 1)))
     return evens2
